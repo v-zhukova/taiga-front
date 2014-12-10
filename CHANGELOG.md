@@ -1,11 +1,19 @@
 # Changelog #
 
-## 1.4.0 Unknown (Unknown)
+
+## 1.4.0 Abies veitchii (2014-12-10)
 
 ### Features
 - Upgrade to AngularJS 1.3.
 - Use enter to submit lightboxes forms.
 - Added team members section.
+- Bitbucket integration:
+  + Change status of user stories, tasks and issues with the commit messages.
+- Gitlab integration:
+  + Change status of user stories, tasks and issues with the commit messages.
+  + Sync issues creation in Taiga from Gitlab.
+- Support of leave project.
+- Improving OCC (Optimistic concurrency control)
 
 ### Misc
 - Lots of small and not so small bugfixes.
