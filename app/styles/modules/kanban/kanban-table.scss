@@ -96,6 +96,15 @@ $column-margin: 0 10px 0 0;
         &:last-child {
             margin-right: 0;
         }
+        .kanban-column-intro {
+            color: $gray-light;
+            font-family: opensans-semibold;
+            font-size: 0.8rem;
+            margin: 0.5rem;
+            &.active {
+                color: $blackish;
+            }
+        }
         .kanban-wip-limit {
             background: $red;
             border-radius: 2px;
